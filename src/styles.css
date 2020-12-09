@@ -1,0 +1,68 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #d8d8d8;
+  color: #343434;
+  letter-spacing: 1px;
+}
+
+.App {
+  font-family: sans-serif;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main__form {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.input {
+  padding: 16px;
+  border: none;
+  width: 80vw;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+input[type="radio"] {
+  margin: 5px;
+  padding: 16px 32px;
+  font-size: 20px;
+}
+
+.btn {
+  margin-top: 1rem;
+  padding: 20px 40px;
+  background-color: black;
+  border: none;
+  color: white;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(46, 42, 42);
+}
+
+.radio__button {
+  margin: auto;
+}
+
+.heading__image {
+  text-align: center;
+}
